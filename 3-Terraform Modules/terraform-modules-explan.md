@@ -233,5 +233,3 @@ module "ec2_instance" {
 - **Practice creating Terraform modules** for different AWS services.
 - **Explore Terraform Registry** to see what pre-built modules are available.
 - **Try using remote backends** to store your Terraform state securely.
-
-// this is for test
