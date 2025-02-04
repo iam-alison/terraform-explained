@@ -5,7 +5,7 @@
 1. Infrastructure as Code (IaC) Concept
    - Automating infrastructure provisioning using code.
 2. Why Terraform is Essential for DevOps/Cloud Engineers
-   - High demand in the job market.
+   - cross platform, easy to reuse.
 3. Installing Terraform (MacOS, Linux, Windows)
    - official installation guide provided.
 4. AWS Setup for Terraform
@@ -72,9 +72,9 @@
 
    
 
-### **Writing Terraform Code:**
+### **Hands-on: Launch EC2 instance using Terraform:**
 
-**Goal:** Launch EC2 instance using Terraform.
+- 
 
 - **Create** `main.tf` (Terraform Configuration File):
 
@@ -88,12 +88,15 @@
     instance_type = "t2.micro"
   }
   ```
-
+ - execute `terraform init` to initialize provider plugins and configuration
+ - execute `terraform plan` to dry run to preview infrastructure changes
+ - execute `terraform apply` to apply changes and provisions resources
+ - execute `destroy` to deletes resources to avoid charges.
 
 ### **Terraform Workflow:**
 
 1. **init:** Initializes provider plugins and configuration.
 2. **plan**: Dry run to preview infrastructure changes.
-3. **Apply**: Applies changes and provisions resources.
+3. **apply**: Applies changes and provisions resources.
 4. **destroy**: Deletes resources to avoid charges.
 
