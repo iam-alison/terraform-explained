@@ -1,16 +1,7 @@
-# Day-4 | Terraform State DeepDive | Remote Backend | State Locking
+# Day-4 | Terraform State | Remote Backend | State Locking
 
-- [vid](https://www.youtube.com/watch?v=UhNpn7lVRBY&list=PLdpzxOOAlwvI0O4PeKVV1-yJoX2AqIWuf&index=4)
 
----
-
-### **Terraform Day 4 - Terraform State Deep Dive, Remote Backend & State Locking**
-
-**Instructor:** Abhishek Veeramalla
-
-------
-
-## **📌 Agenda for the Lecture**
+## **📌 What's covered**
 
 1. Understanding Terraform State
    - What is a state file?
